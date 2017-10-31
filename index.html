@@ -5,8 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tetris</title>
+    <style>
+        body {
+            background: #202028;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 2em;
+            text-align: center;
+        }
+        #score {
+            margin-bottom: 10px;
+        }
+        canvas {
+            border: solid .2em #fff;
+            height: 90vh;
+        }
+    </style>
 </head>
 <body>
+    <div id="score">0</div>
     <canvas id ="tetris" width="240" height="400"></canvas>
 </body>
 <script src="tetris.js"></script>
